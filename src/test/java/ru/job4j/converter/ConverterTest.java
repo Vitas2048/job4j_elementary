@@ -15,6 +15,7 @@ public class ConverterTest {
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
     }
+
     @Test
     public void  WhenConvert140RblThen2dot333Dlr(){
         float in = 140;
