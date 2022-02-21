@@ -15,7 +15,7 @@ public class ConverterTest {
     }
 
     @Test
-    public void  WhenConvert140RblThen2dot333Dlr(){
+    public void  whenConvert140RblThen2dot333Dlr() {
         float in = 140;
         float expected = 2.3333333f;
         float out = Converter.rubleToDollar(in);
