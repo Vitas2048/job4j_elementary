@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class PointTest {
 
     @Test
-    public void whenX1_1_Y1_1_X2_1_Y2_1Then0() {
+    public void whenX1Eq1Y1Eq1X2Eq1Y2Eq1Then0() {
         int x1 = 1;
         int x2 = 1;
         int y1 = 1;
@@ -19,7 +19,7 @@ public class PointTest {
     }
 
     @Test
-    public void whenX1_0_Y1_0_X2_2_Y2_2dot828427Then0() {
+    public void whenX1Eq0Y1Eq0X2Eq2Y2Eq2dot828427Then0() {
         int x1 = 0;
         int x2 = 2;
         int y1 = 0;
@@ -30,7 +30,7 @@ public class PointTest {
     }
 
     @Test
-    public void whenX1_0_Y1_0_X2_2_Y4_4dot472Then0() {
+    public void whenX1Eq0Y1Eq0X2Eq2Y4Eq4dot472Then0() {
         int x1 = 0;
         int x2 = 2;
         int y1 = 0;
