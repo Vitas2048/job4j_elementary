@@ -9,7 +9,7 @@ public class Mortgage {
             year++;
         }
             if ((amount > 0) && (amount < salary)) {
-                year++;
+                year = year + 1;
             } else {
                 if ((amount + (amount * percent / 100)) <= salary) {
                     year = 1;
