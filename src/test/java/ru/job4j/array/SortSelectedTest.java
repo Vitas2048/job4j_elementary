@@ -21,10 +21,10 @@ public class SortSelectedTest {
     }
 
     @Test
-    public void whenSortArrayOf5Elements() {
-        int[] data = new int[] {1, 2, 4, 3, 5};
+    public void whenSortArrayOf6Elements() {
+        int[] data = new int[] {1, 2, 4, 3, 5, 6};
         int[] result = SortSelected.sort(data);
-        int[] expected = new int[] {1, 2, 3, 4, 5};
+        int[] expected = new int[] {1, 2, 3, 4, 5, 6};
         Assert.assertArrayEquals(expected, result);
     }
 }
