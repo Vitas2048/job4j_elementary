@@ -9,6 +9,7 @@ public class Defragment {
                 if (array[i] != null) {
                     array[index] = array[i];
                     array[i] = temp;
+                    break;
                 }
                 }
             }
