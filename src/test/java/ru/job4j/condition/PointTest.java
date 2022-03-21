@@ -27,13 +27,13 @@ public class PointTest {
 
     @Test
     public void whenX1Eq0Y1Eq0X2Eq2Y2Eq4Then4dot472() {
-        int x1 = 0;
-        int x2 = 2;
+        int x1 = 4;
+        int x2 = 0;
         int y1 = 0;
         int y2 = 4;
-        Point a = new Point(0, 0);
-        Point b = new Point(2, 4);
-        double expected = 4.472;
+        Point a = new Point(4, 0);
+        Point b = new Point(0, 4);
+        double expected = 5.657;
         double rsl = a.distance(b);
         Assert.assertEquals(expected, rsl, 0.01);
     }
