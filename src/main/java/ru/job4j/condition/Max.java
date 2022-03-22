@@ -15,9 +15,9 @@ public class Max {
     }
 
     public static void main(String[] args) {
-        int left = 6;
-        int right = 6;
-        int result = max(left, right);
+        int first = 6;
+        int second = 8;
+        int result = max(first, second);
         System.out.println("max = " + result);
     }
 }
