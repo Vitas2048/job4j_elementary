@@ -38,4 +38,19 @@ public class PointTest {
         Assert.assertEquals(expected, rsl, 0.01);
     }
 
+    @Test
+    public void whenX1Eq0Y1Eq0Z1Eq0X2Eq1Y2Eq1ZEq1Then1dot732() {
+        int x1 = 0;
+        int x2 = 1;
+        int y1 = 0;
+        int y2 = 1;
+        int z1 = 0;
+        int z2 = 1;
+        Point a = new Point(0, 0, 0);
+        Point b = new Point(1, 1, 1);
+        double expected = 1.732;
+        double rsl = a.distance3d(b);
+        Assert.assertEquals(expected, rsl, 0.01);
+    }
+
 }
