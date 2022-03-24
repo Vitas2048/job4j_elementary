@@ -13,11 +13,7 @@ public class Dentist extends Doctor {
         this.canFixTeeth = canFixTeeth;
     }
 
-    public Dentist(String name, String surname, String education, String birthday, boolean seenCorps) {
-        super(name, surname, education, birthday, seenCorps);
-    }
-
-    public void greatTeethMaster() {
+     public void greatTeethMaster() {
         if (canFixTeeth) {
             System.out.println("It`s so good that he can fix teeth");
         } else {
