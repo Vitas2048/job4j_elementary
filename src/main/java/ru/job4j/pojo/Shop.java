@@ -9,6 +9,9 @@ public class Shop {
                 index = i;
                 break;
             }
+            if (index == 0) {
+                index = -1;
+            }
         }
         return index;
     }
