@@ -2,8 +2,8 @@ package ru.job4j.poly;
 
 public class Bus implements Transport {
 
-    double maxWeight;
-    boolean workingEngine;
+    private double maxWeight;
+    private boolean workingEngine;
 
     @Override
     public void ride() {
