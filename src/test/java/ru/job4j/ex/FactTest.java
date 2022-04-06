@@ -14,8 +14,8 @@ public class FactTest {
 
     @Test
     public void whenNMore0ThenFinish() {
-        Fact F = new Fact();
-        int rsl = F.calc(5);
+        Fact  f = new Fact();
+        int rsl = f.calc(5);
         assertThat(rsl, is(120));
     }
 }
